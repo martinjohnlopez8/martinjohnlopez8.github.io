@@ -1,0 +1,1101 @@
+/* Fonts
+   ========================================================================== */
+@font-face {
+    font-family: Lato-Regular;
+    src: url(../fonts/Lato-Regular.ttf); 
+}
+
+@font-face {
+    font-family: Lato-Bold;
+    src: url(../fonts/Lato-Bold.ttf); 
+}
+
+@font-face {
+    font-family: Lato-Italic;
+    src: url(../fonts/Lato-Italic.ttf); 
+}
+
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/Lato-Light.ttf); 
+}
+
+/* MAIN NAVIGATION
+   ========================================================================== */
+.main-navigation {
+	 height: auto;
+	 width: 100%;
+	 background-color: #103547;
+	 color: white;
+     transition: all 0.3s ease-out;
+}
+
+.main-navigation.-transparent {
+    background: transparent;
+    border-bottom: none;
+}
+
+.main-navigation .logo {
+	height: 50px;
+	width: 50px;
+    background-color: #ffffff;
+    border-radius: 50px;
+    margin: 15px 0;
+}
+
+.toggle-navigation {
+    background-color: transparent;
+    border: 0;
+    font-size: 16px;
+    padding: 0 8px 0 0;
+}
+
+.main-navigation button:focus{
+    outline: 0;
+}
+
+
+.main-navigation .searchbox-container {
+	  margin: 30px 0;
+      display: inline-block;
+}
+
+.main-navigation .search {
+	 background-color: transparent;
+	 border: 0px;
+	 font-size: 12px;
+	 width: 150px;
+	 height: auto;
+	 color: white;
+	 outline: none;
+     font-family: "Lato-Regular";
+}
+
+
+.main-navigation .search::-webkit-input-placeholder {
+    color: white;
+    font-family: Lato-Regular;
+}
+
+.main-navigation .search:-moz-placeholder { /* Firefox 18- */
+    color: white;  
+    font-family: Lato-Regular;
+}
+
+.main-navigation .search::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+    font-family: Lato-Regular;
+}
+
+.main-navigation .search:-ms-input-placeholder {  
+    color: white;  
+    font-family: Lato-Regular;
+}
+
+.main-navigation .navigation-list{
+	 float: right;
+	 margin: 30px 0;
+	 font-family: "Lato-Regular";
+}
+
+.main-navigation .navigation-mobile {
+    padding: 0;
+    background-color: transparent;
+}
+
+.main-navigation .navigation-mobile li{
+    display: block;
+    font-size: 14px;
+    color: white;
+    padding: 10px 0px
+}
+
+.main-navigation ul {
+	 list-style-type: none;
+}
+
+.main-navigation .navigation-list li {
+	 display: inline;
+	 font-size: 13px;
+	 color: white;
+	 padding: 5px;
+}
+
+.main-navigation a:link {
+    color: white;
+}
+
+.main-navigation a:visited {
+    color: white;
+}
+
+.main-navigation a:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.main-navigation a:active {
+    color: white;
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    .main-navigation .searchbox-container {
+        height: 30px;
+    }
+}
+
+
+/* ABOUT
+   ========================================================================== */
+.about {
+    height: auto;
+    width: 100%;
+    background-color: #37b0e9;
+    color: white;
+    display: block;
+    padding: 150px 0 100px 0;
+}
+
+.about h1.title{
+    font-family: Lato-Regular;
+    font-size: 24px;
+}
+
+.about hr{
+    width: 95px;
+    height: 4px;
+    background-color: white;
+    margin-left: 0;
+
+}
+
+.about h1.about-contents {
+    font-family: Lato-Bold;
+    font-size: 36px;
+    display: inline-block;
+    margin:  0 0 10px;
+}
+.about span{
+    display: block;
+}
+
+/* ABOUT NAVIGATION
+   ========================================================================== */
+.about-nav {
+    width: 100%;
+    height: auto;
+    background-color: #7c7c7c;
+    font-family: Lato-Regular;
+    font-size: 12px;
+    color:white;
+    padding: 10px 0;
+    margin: 90px 0 0 0;
+    display: none;
+}
+
+.about-nav .about-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about-nav .about-list li.active a{
+    color: white;
+    border-bottom: 2px solid white;
+    padding: 0 0 3px 0;
+    
+}
+
+
+.about-nav .about-list li{
+    display: inline;
+    color: white; 
+    font-size: 14px;
+    margin: 0 10px 0 0;
+}
+
+.about-nav a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.about-nav a:visited{
+    color: white;
+    text-decoration: none;
+
+}
+
+.about-nav a:hover {
+    text-decoration: none;
+}
+
+
+.about-nav a:active {
+    text-decoration: none;
+    border-bottom: none;
+
+}
+
+.about-nav .searchbox-container {
+      display: inline-block;
+      float: right;
+}
+
+.about-nav .search {
+     background-color: #7c7c7c;
+     border: 0px;
+     font-size: 12px;
+     width: 150px;
+     height: auto;
+     color: white;
+     outline: none;
+}
+
+.about-nav .search::-webkit-input-placeholder {
+    color: white;
+    font-family: Lato-Regular;
+}
+
+.about-nav .search:-moz-placeholder { /* Firefox 18- */
+    color: white;  
+    font-family: Lato-Regular;
+}
+
+.about-nav .search::-moz-placeholder {  /* Firefox 19+ */
+    color: white;  
+    font-family: Lato-Regular;
+}
+.about-nav .search:-ms-input-placeholder {  
+    color: white;  
+     font-family: Lato-Regular;
+}
+
+.about-nav .navigation-list{
+     float: right;
+     margin: 30px 0;
+     font-family: "Lato-Light";
+}
+
+@media only screen and (max-width: 992px) {
+    .about-nav .about-list li{
+      display: none; !important }
+    .about-nav .about-list li.active {
+      display: inline; }
+    .about-nav .about-list li.active a {
+     border-bottom: none; } 
+    }
+/* CONTENTS
+   ========================================================================== */
+.contents {
+    width: 100%;
+    height: auto;
+    background-color: white;
+    padding: 0 0 200px 0;
+}
+
+.contents h1.title{
+    font-family: Lato-Bold;
+    font-size: 24px;
+    padding: 0 0 20px;
+}
+
+.contents span.descriptions{
+    font-family: Lato-Regular;
+    font-size: 14px;
+    display: block;
+    padding: 0 0 20px 0;
+}
+
+.contents span.descriptions-second{
+    font-family: Lato-Regular;
+    font-size: 14px;
+    display: block;
+}
+
+.contents .statistics{
+    margin: 50px 0 0 0;
+}
+
+.contents .statistics-row{
+    display: block;
+}
+
+.contents h3.number{
+    font-family: Lato-Bold;
+    font-size: 24px;
+    text-align: center;
+    color: #7c7c7c;
+    margin: 0 0 0 0;
+    padding: 20px 0 0 0;
+}
+
+.contents .number-bottom{
+    font-family: Lato-Bold;
+    font-size: 24px;
+    text-align: center;
+    color: #7c7c7c;
+    margin: 0 0 0 0;
+}
+
+.contents h4.statistics-description{
+    font-family: Lato-Light;
+    font-size: 12px;
+    text-align: center;
+    color: #7c7c7c;
+    padding: 0px 0;
+}
+.contents .statistics-description span {
+    display: block;
+}
+
+
+.contents .dexter{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+    display: block;
+    padding: 20px 0 0 0;
+}
+
+.contents .name{
+    text-align: center;
+    font-family: "Lato-Bold";
+    font-size: 18px;
+}
+
+.contents .position{
+    text-align: center;
+    font-family: "Lato-Regular";
+    font-size: 14px;
+}
+
+.contents .sample{
+    padding: 0;
+}
+
+
+/*FOOTER
+   ========================================================================== */
+.main-footer {
+  width: 100%;
+  height: auto;
+  background-color: #1f1f1f;
+  padding: 50px 0 0 0;
+}
+
+.main-footer .footer-middle{
+    padding: 0 ;
+}
+
+.main-footer .inside-footer{
+    padding: 0 ;
+}
+
+.main-footer .footer-list {
+    padding: 0;
+}
+
+.main-footer li {
+    display: block;
+}
+
+.main-footer .footer-title {
+    color: #3ec4f9;
+    font-size: 14px;
+    font-family: "Lato-Regular";
+}
+
+.main-footer a:link{
+    text-decoration: none;
+    color: #7c7c7c;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+}
+
+.main-footer a:visited {
+    text-decoration: none;
+    color: #7c7c7c;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+}
+
+
+.main-footer a:hover {
+    color: #555555;
+    text-decoration: none;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+}
+
+.main-footer a:active {
+    text-decoration: none;
+    color: #7c7c7c;
+    font-family: "Lato-Regular";
+    font-size: 12px;
+}
+
+
+.main-footer .signup-section{
+    background-color: black;
+    height: 165px;
+    display: table;
+    padding: 30px 5px;
+}
+
+.main-footer .signup-section h4{
+    font-family: "Lato-Regular";
+    color: #3ec4f9;
+    font-size: 16px;
+}
+
+.main-footer .signup-section p{
+    font-family: "Lato-Regular";
+    color: #828282;
+    font-size: 12px;
+}
+
+.main-footer .footer-connect {
+    color: #3ec4f9;
+    font-size: 14px;
+    font-family: "Lato-Regular";
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+.main-footer .social-row ul{
+    margin: 0;
+    padding: 0;
+
+}
+
+.main-footer .social-row li{
+    display: inline;
+}
+
+.main-footer .social-icons{
+    margin: 0;
+    text-align: center;
+}
+
+.main-footer .line-copyright{
+    width: 80%;
+    align: center;
+    border-color: #828282;
+    padding: 0 0 0 0;
+}
+
+.main-footer .copyright-2015{
+    font-family: "Lato-Regular";
+    font-size: 10px;
+    color: #828282;
+
+}
+
+
+.main-footer .signup-button {
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: #37b0e9;
+    font-family: "Lato-Light";
+    width: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    margin-top: 40px;
+}
+
+@media only screen and (min-width: 768px) {
+
+    .main-footer .signup-section {
+      background-color: black;
+      height: 165px;
+      display: table;
+      padding: 30px 5px;
+    }
+
+}
+/* CONTACTS
+   ========================================================================== */
+.contact-heading .text-center{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact-heading .envelope {
+    font-size: 80px;
+    color: #3ec4f9;
+    text-align: center;
+}
+
+.contact-heading h5 {
+    color: #7c7c7c;
+    font-family: "Lato-Italic";
+    padding-bottom: 50px;
+}
+
+.contact-section .contact-label {
+    font-family: "Lato-Regular";
+}
+
+.contact-section .contact-input {
+    padding: 10px;
+    margin: 0 0 20px 0;
+    width: 100%;
+    display: block;
+    border: solid 1px #7c7c7c;
+}
+
+.contact-section .contact-input:focus {
+    padding: 10px;
+    margin: 0 0 20px 0;
+    width: 100%;
+    display: block;
+    border: solid 1px #8d8d8d;
+    outline: none;
+}
+
+.contact-section .contact-input.-textarea {
+    min-height: 150px;
+    max-height: 150px;
+    max-width: 100%;
+}
+
+.contact-section .contact-line {
+    width: 100%;
+    border-color: #7c7c7c;
+    margin-top: 50px;
+    margin: 20px 0 40px 0;
+}
+
+.contact-section .send-center {
+    text-align: center;
+}
+
+.contact-section .send {
+    background-color: #1799d6;
+    border-radius: 2px;
+    color: white;
+    font-family: "Lato-Bold";
+    padding: 5px 20px;
+    margin-top: 15px;
+    display: inline-block;
+    border: 1px solid #37b0e9;
+    font-size: 18px;
+
+}
+
+.contact-section .google-map {
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.contact-section .location {
+    padding-bottom: 50px;
+}
+
+.contact-section .text-center {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.contact-section .location-padding {
+    padding-bottom: 250px;
+}
+
+.contact-section .location-heading {
+    font-family: "Lato-Bold";
+    font-size: 24px;
+}
+
+.contact-section .subheading-center {
+    padding-top: 40px;
+}
+
+.contact-section h5 {
+    border-bottom: 2px solid #1f1f1f;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-family: "Lato-Regular";
+}
+
+.contact-section span {
+    font-family: "Lato-Regular";
+    display: block;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .contact-section .subheading-center{
+        text-align: center;
+    }
+    
+    .contact-section span {
+        text-align: center;
+    }
+}
+
+/* Footer Stay Down
+   ========================================================================== */
+
+.fsd-wrap {
+    //
+    // Mixins
+    //
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.fsd-wrap .content-wrap {
+        display: table-row;
+        height: 100%;
+}
+
+.fsd-wrap .footer-wrap {
+        display: table-row;
+        height: 1px;
+}
+
+/* Modal
+   ========================================================================== */
+.no-padding{
+    padding: 0 !important; 
+}
+
+.modal {
+    z-index: 9999999;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.modal .vertical-alignment-helper {
+    display:table;
+    height: 100%;
+    width: 100%;
+    pointer-events:none;
+}
+
+.vertical-align-center {
+    display: table-cell;
+    vertical-align: middle;
+    pointer-events:none;
+}
+
+.modal-content {
+    width: inherit;
+    height: inherit;
+    margin: 0 auto;
+    pointer-events: all;
+    border-radius: 0;
+    height: auto;
+    padding: 20px 50px;
+}
+
+.send-modal .modal-text {
+    font-family: "Lato-Regular";
+}
+
+.send-modal .modal-close {
+    color: blue;
+}
+
+.send-modal .hr-black {
+    border-color: black;
+    margin-top: 50px;
+}
+
+.signup-modal
+
+ .signup-modal .modal-content {
+    width:inherit;
+    height:inherit;
+    margin: 0 auto;
+    pointer-events: all;
+    border-radius: 0;
+    height: auto;
+    padding: 20px 50px;
+}
+
+.signup-modal .modal-text {
+    color: blue;
+    display: inline-block;
+}
+
+.signup-modal .small {
+    font-family: "Lato-Italic";
+    margin-bottom: 20px;
+    display: block;
+    color: font-gray;
+}
+
+.signup-modal .box-close {
+    float: right;
+    padding: 8px;
+    color: gray;
+    font-family: "Lato-Regular";
+    margin-top: 2px;
+}
+
+.signup-modal .box-close :hover {
+    opacity: 1;
+    color: darken(white, 10%);
+    transition: 0.2s ease-out;
+}
+.modal-close {
+    color: #37b0e9;
+}
+
+.signup-modal .modal-text {
+    color: #37b0e9;
+    display: inline-block;
+}
+
+.signup-modal .modal-text h4{
+    font-size: 16px;
+    font-family: "Lato-Bold";
+}
+
+.signup-modal .signup-input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+.signup-modal .small {
+    font-family: "Lato-Italic";
+    margin-bottom: 20px;
+    display: block;
+    color: #7c7c7c;
+}
+
+.signup-modal .signup-input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+        color: black;
+    }
+
+ .signup-modal .signup-input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+        color: black;
+        opacity:  1;
+    }
+
+.signup-modal .signup-input::-moz-placeholder { /* Mozilla Firefox 19+ */
+        color: black;
+        opacity:  1;
+    }
+
+.signup-modal .signup-input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: black;
+    }
+
+.signup-modal .signup-input:placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+        color: black;
+    }
+
+.signup-modal span{
+    display: block;
+    font-family: "Lato-Italic";
+}
+
+.signup-modal hr{
+    border-color: black;
+}
+
+.signup-modal .signup-input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.signup-modal .text-center{
+    text-align: center;
+}
+
+/* Location
+   ========================================================================== */
+
+.location-section {
+    padding: 50px 0;
+}
+
+.location-section .img-container{
+
+}
+
+.location-section .location-images {
+}
+
+.location-section .location-name{
+    margin-top: 5px;
+    color: #1f1f1f
+}
+.location-section h2 {
+    font-size: 24px;
+}
+
+.location-section a {
+    font-family: "Lato-Bold";
+    text-decoration: none;
+}
+
+.location-section a:link {
+    color: white;
+    text-decoration: none;
+}
+
+.location-section a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.location-section a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.location-section a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.location-section .location-img {
+    width: 100%;
+}
+
+.location-section .location-item {
+    margin-bottom: 35px;
+}
+
+.location-item:hover  .location-overlay{
+    margin-bottom: 35px;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+
+.location-section .img-container{
+    position: relative;
+}
+
+
+.location-item:hover .overlay-text{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.location-section .location-overlay {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.2s ease-out;
+}
+
+.location-section .overlay-text {
+    opacity: 0;
+    color: #ffffff;
+    padding: 0 20px;
+    text-align: center;
+    line-height: 3.2rem;
+    display: block;
+    transition: all 0.2s ease-out;
+}
+
+/* HOMEPAGE
+   ========================================================================== */
+
+
+.homepage .home-section {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    background-image: url("../images/homepage-photo.jpg");
+    background: url("../images/homepage-photo.jpg") no-repeat bottom center scroll;
+    color: #ffffff;
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .homepage .home-section {
+        background-size: 100%;
+    }
+}
+
+
+.homepage .home-section .home-body{
+    padding: 50px 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.homepage .home-section .tagline {
+    margin: 0;
+    font-size: 56px;
+    font-family: "Lato-Bold";
+}
+
+.homepage .home-section .tagline span {
+    display: block;
+    padding-bottom: 15px;
+}
+
+.homepage .home-section .location-input {
+    float: left;
+    font-size: 18px;
+    padding: 15px 20px;
+    border: 1px solid white;
+    color: #7c7c7c;
+    width: 300px;
+    border-radius: 5px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    font-family: "Lato-Light";
+    margin-bottom: 15px;
+}
+
+.homepage .home-section .location-button {
+    background-color: #37b0e9;
+    border: 1px solid #37b0e9;
+    border-radius: 5px;
+    float: left;
+    font-family: "Lato-Light";
+    font-size: 18px;
+    padding: 15px 20px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-bottom: 15px;
+}
+
+.homepage .home-section .location-button.-small{
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.icon-home:before {
+    content: "\e90c";
+}
+
+.homepage .home-section .icon-home {
+    font-family: 'icomoon' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.homepage .homepage-section{
+    background-color: #0F7ACB;
+    padding: 50px 0 50px;
+}
+
+.homepage .homepage-section .description-circle {
+    background-color: #0A568D;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.homepage .description-circle span {
+    position: relative;
+    font-size: 120px;
+    color: #0F7ACB;
+    top: 50px;
+}
+
+.homepage .homepage-section .description{
+    text-align: center;
+    background-color: #0F7ACB;
+
+}
+
+.homepage .homepage-section .description h3 {
+    color: #ffffff;
+    font-size: 18px;
+    font-family: "Lato-Bold";
+}
+
+.homepage .homepage-section .description p {
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Lato-Regular";
+}
+
+.homepage .homepage-contents  {
+    background-color: white;
+    padding: 50px 0;
+}
+
+.homepage .homepage-contents  h1{
+    font-size: 36px;
+    font-family: "Lato-Bold";
+    color: #7c7c7c;
+}
+
+.homepage .homepage-contents  h2{
+    font-size: 24px;
+    font-family: "Lato-Bold";
+    color: #7c7c7c;
+}
+
+.homepage .homepage-contents  p{
+    font-size: 14px;
+    color: #7c7c7c;
+}
+
+.homepage .homepage-contents img{
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+    color: #7c7c7c;
+}
+
+/* CAROUSEL SECTION
+   ========================================================================== */
+
+.carousel-section {
+
+    background-color: #2CB1D1;
+    height: auto;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.carousel-section .carousel-heading {
+    text-align: center;
+}
+
+.carousel-section .carousel-heading h1{
+    font-size: 36px;
+    font-family: "Lato-Bold";
+    color: white;
+}
+
+.carousel-section .carousel {
+
+}
+
+.carousel-section .carousel .carousel-quote {
+    font-family: "Lato-Light";
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    
+}
