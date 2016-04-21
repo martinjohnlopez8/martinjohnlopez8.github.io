@@ -2,22 +2,22 @@
    ========================================================================== */
 @font-face {
     font-family: Lato-Regular;
-    src: url(../fonts/Lato-Regular.ttf); 
+    src: url(../fonts/Lato-Regular.ttf);
 }
 
 @font-face {
     font-family: Lato-Bold;
-    src: url(../fonts/Lato-Bold.ttf); 
+    src: url(../fonts/Lato-Bold.ttf);
 }
 
 @font-face {
     font-family: Lato-Italic;
-    src: url(../fonts/Lato-Italic.ttf); 
+    src: url(../fonts/Lato-Italic.ttf);
 }
 
 @font-face {
     font-family: Lato-Light;
-    src: url(../fonts/Lato-Light.ttf); 
+    src: url(../fonts/Lato-Light.ttf);
 }
 
 /* MAIN NAVIGATION
@@ -25,7 +25,7 @@
 .main-navigation {
 	 height: auto;
 	 width: 100%;
-	 background-color: #103548;
+	 background-color: #103547;
 	 color: white;
      transition: all 0.3s ease-out;
 }
@@ -78,17 +78,17 @@
 }
 
 .main-navigation .search:-moz-placeholder { /* Firefox 18- */
-    color: white;  
+    color: white;
     font-family: Lato-Regular;
 }
 
 .main-navigation .search::-moz-placeholder {  /* Firefox 19+ */
-    color: white;  
+    color: white;
     font-family: Lato-Regular;
 }
 
-.main-navigation .search:-ms-input-placeholder {  
-    color: white;  
+.main-navigation .search:-ms-input-placeholder {
+    color: white;
     font-family: Lato-Regular;
 }
 
@@ -140,7 +140,7 @@
 }
 
 @media only screen and (max-width: 768px) {
-    
+
     .main-navigation .searchbox-container {
         height: 30px;
     }
@@ -205,13 +205,13 @@
     color: white;
     border-bottom: 2px solid white;
     padding: 0 0 3px 0;
-    
+
 }
 
 
 .about-nav .about-list li{
     display: inline;
-    color: white; 
+    color: white;
     font-size: 14px;
     margin: 0 10px 0 0;
 }
@@ -259,16 +259,16 @@
 }
 
 .about-nav .search:-moz-placeholder { /* Firefox 18- */
-    color: white;  
+    color: white;
     font-family: Lato-Regular;
 }
 
 .about-nav .search::-moz-placeholder {  /* Firefox 19+ */
-    color: white;  
+    color: white;
     font-family: Lato-Regular;
 }
-.about-nav .search:-ms-input-placeholder {  
-    color: white;  
+.about-nav .search:-ms-input-placeholder {
+    color: white;
      font-family: Lato-Regular;
 }
 
@@ -284,7 +284,7 @@
     .about-nav .about-list li.active {
       display: inline; }
     .about-nav .about-list li.active a {
-     border-bottom: none; } 
+     border-bottom: none; }
     }
 /* CONTENTS
    ========================================================================== */
@@ -632,7 +632,7 @@
     .contact-section .subheading-center{
         text-align: center;
     }
-    
+
     .contact-section span {
         text-align: center;
     }
@@ -666,7 +666,7 @@
 /* Modal
    ========================================================================== */
 .no-padding{
-    padding: 0 !important; 
+    padding: 0 !important;
 }
 
 .modal {
@@ -927,7 +927,7 @@
 }
 
 @media only screen and (min-width: 768px) {
-    
+
     .homepage .home-section {
         background-size: 100%;
     }
@@ -1097,5 +1097,5 @@
     font-size: 18px;
     color: white;
     text-align: center;
-    
+
 }
